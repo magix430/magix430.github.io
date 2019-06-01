@@ -1,15 +1,30 @@
 html {
-    height: 100%;
     font-family: "Lato";
+}
+
+.right {
+    font-family: "Lato-H";
 }
 
 body {
     /* background: radial-gradient(circle at center, #FFFFFF 0, #FFFFFF 70%, #BFBFBF 100%); */
     background: rgb(250, 250, 252);
-    height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 div#bannerSection {
@@ -18,4 +33,43 @@ div#bannerSection {
     margin-bottom: 8em;
     position: relative;
     font-family: "Lato-H";
+}
+
+ul#nav {
+    list-style: none;
+}
+
+ul#nav li {
+    display: block;
+    width: 100px;
+    float: left;
+    margin-left: 2px;
+    text-align: center;
+    font-size: 1.1em;
+
+    transition: .25s;
+}
+
+li.current {
+    padding-bottom: 10px;
+    border-bottom: rgba(0, 0, 0, 0.5) 1px solid;
+}
+
+.right {
+    position: fixed;
+    right: 20px;
+    top: 0px;
+}
+
+ul a:link,
+ul a:visited {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: .25s;
+}
+
+ul a:hover {
+    color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
 }

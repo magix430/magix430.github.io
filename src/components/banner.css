@@ -13,27 +13,4 @@ div.banner {
     left: 0px;
 }
 
-.right {
-    position: fixed;
-    right: 0px;
-    top: 0px;
-}
 
-ul#nav {
-    list-style: none;
-}
-
-ul#nav li {
-    display: block;
-    width: 120px;
-    float: left;
-    margin-left: 2px;
-    text-align: center;
-
-    transition: .5s;
-}
-
-li:hover {
-    color: rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-}
