@@ -1,180 +1,184 @@
 /* Hexagon specific code*/
 .honeycombs {
-  position: relative;
+    position: relative;
     width: 100%;
-  text-align: left;
+    text-align: left;
 }
 
 .honeycombs .inner_span {
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-  background-color: #EE0013;
-  color: #fff
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #EE0013;
+    color: #fff
 }
 
 .honeycombs .honeycombs-inner-wrapper {
-  display: inline-block;
-  width: 150px;
-  position: relative
+    display: inline-block;
+    width: 150px;
+    position: relative
 }
 
 .honeycombs .hex_l,
 .honeycombs .hex_r {
-  overflow: hidden;
-  position: absolute
+    overflow: hidden;
+    position: absolute
 }
 
 .honeycombs .hex_l {
-  -ms-transform: rotate(60deg);
-  transform: rotate(60deg)
+    -ms-transform: rotate(60deg);
+    transform: rotate(60deg)
 }
 
 .honeycombs .hex_r {
-  -ms-transform: rotate(-120deg);
-  transform: rotate(-120deg)
+    -ms-transform: rotate(-120deg);
+    transform: rotate(-120deg)
 }
 
 .honeycombs .hex_inner {
-  display: block;
-  visibility: visible;
-  -ms-transform: rotate(60deg);
-  transform: rotate(60deg);
-  cursor: pointer
+    display: block;
+    visibility: visible;
+    -ms-transform: rotate(60deg);
+    transform: rotate(60deg);
+    cursor: pointer
 }
 
 .comb-container .inner-text-description-long {
-  display: none;
-  text-align: left;
-  background-color: #fcfcfc;
-  color: #333;
-  line-height: 1.5;
-  margin: 0;
-  padding: 36px 24px 24px;
-  max-width: 310px;
-  position: absolute;
-  z-index: 9
+    display: none;
+    text-align: left;
+    background-color: #fcfcfc;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+    padding: 36px 24px 24px;
+    max-width: 310px;
+    position: absolute;
+    z-index: 9
 }
 
 @media (min-width:700px) {
-  .comb-container .inner-text-description-long {
-    width: 310px
-  }
+    .comb-container .inner-text-description-long {
+        width: 310px
+    }
 }
 
 .comb-container .inner-text-description-long p {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 
 .comb-container .inner-text-description-long p:last-of-type {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .comb-container .inner-text-description-long.active {
-  display: block;
+    display: block;
 }
 
 .comb-container .inner-text-description-short.valign {
-  display: table-cell;
-  vertical-align: middle;
-  padding: 14px
+    display: table-cell;
+    vertical-align: middle;
+    padding: 14px
 }
 
 .comb {
-  position: absolute;
-  display: inline-block
+    position: absolute;
+    display: inline-block
 }
 
 .comb .inner-text-description-long,
 .comb .inner-text-description-short,
 .comb .inner-text-title {
-  display: block;
-  max-width: 78%;
-  text-align: center;
-  margin: 0 auto;
+    display: block;
+    max-width: 78%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .comb .inner-text-title {
-  font-weight: 700;
-  font-size: 2.3rem;
-  line-height: 1;
-  margin-bottom: 1rem
+    font-weight: 600;
+    font-size: 2.3rem;
+    line-height: 1;
+    margin-bottom: 1rem
 }
 
 .comb .comb-description-long,
 .comb .comb-description-short,
 .comb .comb-title {
-  display: none
+    display: none
 }
 
 .comb .inner-text-description-long,
 .comb .inner-text-description-short {
-  line-height: 1.3
+    line-height: 1.3
 }
 
 .comb:hover .inner_span {
-  background-color: #700000
+    background-color: #700000
 }
 
 .comb.disabled .inner_span {
-  background-color: #3c3d3f
+    background-color: #3c3d3f
 }
 
 .comb.music .inner_span {
-  background-color: #1c95cc
+    background-color: #1c95cc
 }
 
 .comb.music:hover .inner_span {
-  background-color: #1a82b1
+    background-color: #1a82b1
 }
 
 .comb.projects .inner_span {
-  background-color: #fcaf2c
+    background-color: #fcaf2c
 }
 
 .comb.projects:hover .inner_span {
-  background-color: #d19124
+    background-color: #d19124
 }
 
 .comb .inner_span {
-  display: table;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  justify-content: center
+    display: table;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: center
 }
 
 .inner-text-description-long + .comb.disabled {
-  pointer-events: none
+    pointer-events: none
 }
 
 .close {
-  position: absolute;
-  top: 12px;
-  top: .75rem;
-  right: 12px;
-  right: .75rem;
-  opacity: 1;
-   -webkit-appearance: none;
-   padding: 0;
-   cursor: pointer;
-   background: 0 0;
-   border: 0;
-   font-size: 1.325rem;
-   font-weight: 700;
-   line-height: 1;
-   color: #555;
-   text-shadow: 0 1px 0 #fff;
+    position: absolute;
+    top: 12px;
+    top: .75rem;
+    right: 12px;
+    right: .75rem;
+    opacity: 1;
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    font-size: 1.325rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #555;
+    text-shadow: 0 1px 0 #fff;
 }
 
 .close:hover {
-  color: #9E9E9E;
+    color: #9E9E9E;
 }
 
 .link {
-  color: #fcaf2c;
+    color: #fcaf2c;
     text-decoration: none;
+}
+
+.link:active {
+    color: #1c95cc;
 }
 
 .link:hover {
@@ -184,8 +188,4 @@
 .link:visited {
     color: #fcaf2c;
     text-decoration: none;
-}
-
-.link:active {
-    color: #1c95cc;
 }
