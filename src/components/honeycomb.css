@@ -177,13 +177,13 @@
     text-decoration: none;
 }
 
-.link:hover {
-    color: #db9928;
-}
-
 .link:visited {
     color: #fcaf2c;
     text-decoration: none;
+}
+
+.link:hover {
+    color: #db9928;
 }
 
 .link:active {
