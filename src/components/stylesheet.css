@@ -1,0 +1,21 @@
+html {
+    height: 100%;
+    font-family: "Lato";
+}
+
+body {
+    /* background: radial-gradient(circle at center, #FFFFFF 0, #FFFFFF 70%, #BFBFBF 100%); */
+    background: rgb(250, 250, 252);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div#bannerSection {
+    display: flex;
+    float: top;
+    margin-bottom: 8em;
+    position: relative;
+    font-family: "Lato-H";
+}

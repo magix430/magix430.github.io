@@ -1,0 +1,19 @@
+body {
+    font-family: "Lato";
+}
+
+
+#map {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 160px;
+    height: 100%;
+    z-index: 100;
+    margin: 12px;
+    opacity: 0.5;
+}
+
+#map:hover {
+    opacity: 1;
+}
