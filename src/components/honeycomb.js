@@ -8,7 +8,7 @@ Forked and changed by Anand Graves.
   $.fn.honeycombs = function(options) {
     // Establish our default settings
     var settings = $.extend({
-      combWidth: 80,
+      combWidth: 120,
       margin: 10,
     }, options);
 

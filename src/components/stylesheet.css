@@ -1,5 +1,5 @@
 html {
-    font-family: "Lato";
+    font-family: "Lato-H";
 }
 
 .right {
@@ -76,6 +76,8 @@ ul a:hover {
 
 div.projectContainer {
     text-align: center;
+    font-family: "Lato-L";
+    font-weight: 900;
 }
 
 div#projectSection {

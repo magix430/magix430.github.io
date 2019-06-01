@@ -1,7 +1,7 @@
 .banner-container {
     display: block;
     float: top;
-    z-index: 101;
+    z-index: 10000001;
 }
 
 div.banner {
@@ -12,5 +12,3 @@ div.banner {
     position: fixed;
     left: 0px;
 }
-
-
