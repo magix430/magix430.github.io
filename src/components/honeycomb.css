@@ -3,12 +3,10 @@
   position: relative;
   width: 100%;
   text-align: left;
-    margin-left: 80px;
-  margin-bottom: 48px
 }
 
 .honeycombs .inner_span {
-  display: block;
+  display: inline-block;
   height: 100%;
   width: 100%;
   background-color: #EE0013;

@@ -73,3 +73,11 @@ ul a:hover {
     cursor: pointer;
 
 }
+
+div.projectContainer {
+    text-align: center;
+}
+
+div#projectSection {
+    display: inline-block;
+}
