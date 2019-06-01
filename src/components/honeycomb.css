@@ -1,6 +1,7 @@
 /* Hexagon specific code*/
 .honeycombs {
   position: relative;
+    width: 100%;
   text-align: left;
 }
 
@@ -141,7 +142,6 @@
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
-  -ms-flex-pack: center;
   justify-content: center
 }
 
@@ -174,4 +174,18 @@
 
 .link {
   color: #fcaf2c;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #db9928;
+}
+
+.link:visited {
+    color: #fcaf2c;
+    text-decoration: none;
+}
+
+.link:active {
+    color: #1c95cc;
 }

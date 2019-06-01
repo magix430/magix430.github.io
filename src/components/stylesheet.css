@@ -75,9 +75,10 @@ ul a:hover {
 }
 
 div.projectContainer {
-    text-align: center; 
+    text-align: center;
 }
 
 div#projectSection {
     display: inline-block;
+    min-width: 500px;
 }
