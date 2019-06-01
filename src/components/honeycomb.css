@@ -177,10 +177,6 @@
     text-decoration: none;
 }
 
-.link:active {
-    color: #1c95cc;
-}
-
 .link:hover {
     color: #db9928;
 }
@@ -188,4 +184,8 @@
 .link:visited {
     color: #fcaf2c;
     text-decoration: none;
+}
+
+.link:active {
+    color: #1c95cc;
 }
