@@ -46,14 +46,15 @@
 .comb-container .inner-text-description-long {
     display: none;
     text-align: left;
-    background-color: #fcfcfc;
+    background-color: #f4f4f4;
+    border: 1px #e5e5e5 solid;
     color: #333;
     line-height: 1.5;
     margin: 0;
     padding: 36px 24px 24px;
     max-width: 310px;
     position: absolute;
-    z-index: 9
+    z-index: 9;
 }
 
 @media (min-width:700px) {
@@ -172,13 +173,10 @@
     color: #9E9E9E;
 }
 
-.link {
-    color: #fcaf2c;
-    text-decoration: none;
-}
-
+.link,
 .link:visited {
     color: #fcaf2c;
+    font-weight: 400;
     text-decoration: none;
 }
 
