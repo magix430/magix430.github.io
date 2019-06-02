@@ -63,6 +63,11 @@
     }
 }
 
+.comb-container .inner-text-description-long img {
+    width: 250px;
+    padding: 10px;
+}
+
 .comb-container .inner-text-description-long p {
     font-size: 1rem;
 }
