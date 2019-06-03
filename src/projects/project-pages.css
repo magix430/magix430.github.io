@@ -7,11 +7,6 @@
     text-align: center;
 }
 
-hr {
-    size: 1px;
-    color: lightgray;
-}
-
 /* Minimap CSS */
 #map {
     position: fixed;
@@ -102,4 +97,9 @@ a:hover {
 
 a:active {
     color: #1c95cc;
+}
+
+div > img {
+    width: 100%;
+    border: 1px solid black;
 }
