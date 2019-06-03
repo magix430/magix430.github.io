@@ -1,6 +1,7 @@
 /* Banner logo bg doesn't match page color */
 .header {
     background: rgb(250, 250, 252);
+    z-index: 999999999;
 }
 
 .titleCard {
