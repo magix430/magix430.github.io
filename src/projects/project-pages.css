@@ -3,6 +3,10 @@
     background: rgb(250, 250, 252);
 }
 
+.titleCard {
+    text-align: center;
+}
+
 /* Minimap CSS */
 #map {
     position: fixed;
