@@ -1,6 +1,7 @@
 .banner-container {
     display: block;
     float: top;
+    z-index: 9999999999;
 }
 
 div.banner {
