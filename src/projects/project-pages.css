@@ -117,11 +117,12 @@ a:active {
 
 .flavortext {
     position: absolute;
+    display: inline-block;
     color: white;
-    top: 35%;
+    top: 50%;
+    bottom: 50%;
     right: 0;
     left: 0;
-    bottom: 0;
     text-align: center;
     opacity: 0;
     font-weight: 300;
