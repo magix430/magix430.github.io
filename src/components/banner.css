@@ -10,4 +10,5 @@ div.banner {
 .left {
     position: fixed;
     left: 0px;
+    z-index: 999999999;
 }
