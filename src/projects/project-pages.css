@@ -40,7 +40,7 @@
     font-size: 0.9em;
     line-height: 1.5;
     display: grid;
-    grid-column-gap: 10px;
+    grid-column-gap: 50px;
     grid-row-gap: 30px;
     grid-template-columns: 25% 25% 25% 25%;
 }
