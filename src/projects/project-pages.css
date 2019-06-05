@@ -19,6 +19,8 @@
     z-index: 9999999999;
     margin: 12px;
     opacity: 0.1;
+
+    transition: 0.5s;
 }
 
 #map:hover {
